@@ -84,3 +84,6 @@
 		background-position: 0% 50%;
 	}
 }
+.removeCourser:hover{
+    cursor: pointer;
+}
