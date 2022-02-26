@@ -1,6 +1,6 @@
 :root
 {
-    --bs-primary: rgba(95, 5, 255, 1);
+    --bs-primary: #13263C;
     --bs-secondary: rgb(159, 105, 253);
 }
 
@@ -64,11 +64,23 @@
     transition: transform .2s ease-in-out;
   
 }
-@media only screen and (min-width: 320px) {
-    body {
-      background-color: lightblue;
-    }
-  }
-.graphic_img{
+
+.new_grad{
+    background: linear-gradient(-45deg, #13263C, #20AA3E, #23a6d5, #03A588);
+	background-size: 400% 400%;
+	animation: gradient 5s  infinite;
+	height: 15vh;
     
+    
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
