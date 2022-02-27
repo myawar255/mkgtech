@@ -87,7 +87,31 @@
 .removeCourser:hover{
     cursor: pointer;
 }
+@media only screen and (min-width: 600px) {
+    
+    .grad2{
+        display: none !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    
+    .grad1{
+        display: none !important;
+    }
+}
 
+.grad2{
+    
+    height: 7rem !important;
+    padding: 19px 4px;
+
+}
+.grad1{
+    
+    height: 7rem !important;
+    padding: 19px 4px;
+
+}
 
 
 
